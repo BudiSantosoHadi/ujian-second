@@ -1,0 +1,35 @@
+*{
+   
+    border: border-box;
+}
+
+.none-box{
+    background-color: rgb(131, 127, 124);
+}
+thead,tbody,th,td,th{
+    border: none;
+    box-shadow: 2px 3px 2px rgba(104, 102, 102, 0.185);
+    margin: 0;
+}
+.num{
+    background-color: rgb(255, 201, 100);
+}
+table{
+    border: 0;
+   
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 2px rgba(87, 85, 85, 0.185);
+    max-width: 20%;
+    margin: 20px 10px;
+    padding: 1px;
+    display: inline-block;
+
+}
+
+/* big-container */
+.big-container{
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    height: auto;
+}
