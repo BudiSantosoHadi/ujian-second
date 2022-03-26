@@ -275,7 +275,7 @@
          </tbody>
         </table>
 
-        <table border="1" cellpadding="5.5">
+        <table border="1" cellpadding="8">
             <thead class="hd_tbl">
                 <th colspan="10">Logic 3.6</th>
             </thead>
@@ -295,11 +295,12 @@
                  echo "<tr>";
                  echo "<td class='num'>$x</td>";
               for ( $y=1; $y <= 9; $y++) {
-                  echo "<td>*</td>";
-                if ($x + $y == 1 && $x <= $y ) {
-                    echo "<td> </td>";
+                if ($x >= $y + 5 || $x <= $y -5 || $x + $y < 6 || $x + $y > 14) {
+                    echo "<td></td>";
+                }else {
+                    echo "<td>*</td>";
                 }
-              }
+               }
              }
             ?>
          </tbody>
